@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800');
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: #212529;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+	background-color: #ffbb37 !important;
+}
+.header-area.sticky .navbar-light .nav-link{
+	color: #112f41;
+}
+
+.header-area.sticky .navbar-brand .d-none{
+	display: block !important;
+}
+
+.header-area.sticky .navbar-brand .mostrar{
+	display: none !important;
+}
+
+
+.barra{
+	background-color: #ffbb37;
+	background-size: cover;
+	height: 5px;
+	margin-bottom: 0px;
+	margin-top: -14px;
+}
+
+.barra .d-none{
+	display: none!important;
+}
+
+.barra .mostrar{
+	display: block!important;
+}
+
+#home{
+	background-image: url(../img/budapest-5-motivi-spettacolo-architettonico-01-boscolo-hotel.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	text-align: left;
+	height: 600px;
+}
+
+.europa h2{
+	font-size: 65px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;	
+	
+}
+
+.europa h4{
+	font-size: 20px;
+	padding-top: 110px;
+	color: #fff;
+	font-weight: 500;
+}
+#bajos{
+	background-image: url(../img/savio-felix-590222-unsplash.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	position: relative;
+}
+
+.cuadro{
+	background-color: rgba(255,91,63,0.70);
+	padding: 30px 0;
+	
+}
+.cuadro a{
+	font-size: 14px;
+	color: #fff;
+}
+
+#bajos h2{
+	font-size: 90px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;	
+	
+}
+
+#bajos h4{
+	font-size: 40px;
+	padding-top: 110px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 300;
+}
+
+#bajos li{
+	color: #fff;
+	font-weight: 400;
+}
+
+.texbajo{
+	text-align: right;
+	padding-right: 70px;
+}
+
+
+.btn-white-shadow{
+	background-color: #ff5b3f;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 5px;
+	padding: 10px 25px;
+	font-size: 14px;
+	box-shadow: 0px 0px 30px 1px rgba(0,0,0,.30);
+}
+
+.btn-white-shadow:hover{
+	background-color:#ffbb37;
+	color: #112f41;
+	box-shadow: 0px 0px 50px 5px rgba(0,0,0,.30);
+}
+
+#travel{
+	text-align: center;
+}
+#travel h2{
+	font-size: 60px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #ff5b3f;
+	padding-top: 150px;
+}
+
+#travel p{
+	text-align: justify;
+	font-size: 14px;
+	padding: 0 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+#promotion{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#promotion h2{
+	font-size: 60px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #ff5b3f;
+}
+
+#promotion h4{
+	font-size: 30px;
+	color: #112f41;
+	font-weight: 400;
+}
+
+#promotion img{
+	max-width: 700px;
+	margin-top: -80px;
+}
+
+#contact{
+	background-color: #112f41;
+	padding-top: 30px;
+	color: #fff;
+	padding-bottom: 30px;
+}
+#contact h2{
+	font-size: 60px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #ff5b3f;
+	text-align: center;
+
+}
+
+footer{
+	background-image: url(../img/praga.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	height: 200px;
+	text-align: center;
+}
+
+.redes{
+	padding-top: 50px;
+}
+.redes li{
+	display: inline-block;
+}
+
+.redes a{
+	width:60px;
+	height: 60px;
+	line-height: 60px;
+	border:2px solid #fff;
+	display: block;
+	border-radius: 15px 0 15px 0;
+	color: #fff;
+	text-decoration: none;
+	transition: all ease 0.3s;
+}
+.redes a:hover{
+	background-color: #fff;
+	color: #068587;
+	transition: all ease 0.3s;
+}
+
+
+/*De 0px hasta 480px*/
+@media (max-width:480px){
+	
+	.europa h2{
+	font-size: 30px;
+		
+}
+	.europa h4{
+	font-size: 20px;
+		
+}
+	#bajos{
+		text-align: center;
+	}
+	#bajos h2{
+		font-size: 30px;
+	}
+	#bajos h4{
+		font-size: 20px;
+	}
+	
+	.texbajo{
+	text-align: center;
+	padding-right: 0px;
+}
+	#travel h2{
+		font-size: 30px;
+	}
+	
+	
+	#promotion img{
+		width: 300px;
+	}
+	
+	#promotion h2{
+		font-size: 30px;
+	}
+	#promotion h4{
+		font-size: 20px;
+	}
+	
+	#contact h2{
+		font-size: 30px;
+	}
+	
+}
+
+/*De 0 hasta 768px*/
+@media (max-width:768px){
+	header{
+		position: inherit;
+	}
+	
+	#travel h2{
+		font-size: 25px;
+		padding-top: 10px;
+	}
+	
+	#travel p{
+		font-size: 10px;
+	}
+	
+	#promotion img{
+		width: 350px;
+	}
+	
+	#promotion h2{
+		font-size: 40px;
+	}
+	
+	#contact h2{
+		font-size: 40px;
+	}
+
+}
+/*De 768 hasta 1200*/
+@media (min-width:768px) and (max-width:1200px){
+	
+}
